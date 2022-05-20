@@ -1,0 +1,357 @@
+html
+{
+    background-color: white;
+    
+    scroll-behavior: smooth;
+}
+
+
+/* Menu */
+ol
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    left: 1%;
+    top: 1%;
+
+}
+
+ol a 
+{
+   
+    display: block;
+    float: left;
+    text-align: center;
+    font-size:120%;
+    width: 24%;
+    text-decoration: none;
+    color: white;
+    background-color: #5a6267;
+    padding: 10px 15px;
+    margin: 0px 1px 1px 0px;
+}
+
+li a:hover 
+{
+    color: white;
+    background: gray;
+}
+
+#tekst1
+{
+    font-size: 20px;
+    color: black;
+    
+}
+#kontakt
+{
+    position: relative;
+    text-align: center;
+    top: 8px;
+    color: white;
+}
+
+/* Formularz */
+
+#regulamin
+{
+    font-size: 15px;
+    color: white;
+}
+/*
+input, textarea
+{
+    color: #5a6267;
+    border: 1px solid black;
+    padding: 3px;
+    background-color:#141414;
+}
+
+input, textarea:placeholder-shown
+{
+    border-color: #5a6267;
+    font-style: italic;
+    color:5a6267;
+
+}
+*/
+#imie, #email, #tytul, #tresc
+{
+    margin-bottom: 5px;
+}
+
+.submit
+{
+    background-color: #0a91d8 ;
+    color:white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 15px, 32px;
+    border-radius: 30px;
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    width: 40%;
+    
+    
+}
+#form
+{
+    position: absolute;
+    top: 80px;
+    left: 10px;
+}
+/*linie */
+.x
+{
+    background-color: 5a6267;
+    height: 1px;
+    border: 0px;
+    float: bottom;
+}
+/*Dół*/
+html, body
+{
+    height: 100%;
+    text-align:center;
+}
+#strona
+{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: -29px;
+}
+
+#dol
+{
+    background-image: linear-gradient(60deg,rgb(82, 73, 73) 0%, rgb(41, 32, 32) 100%);
+    height:200px ;
+    width: 100%;
+    clear: both;
+    position: absolute;
+    top: 400%;
+    
+}
+#dolgaleria
+{
+    background-image: linear-gradient(60deg,rgb(82, 73, 73) 0%, rgb(41, 32, 32) 100%);
+    height:200px ;
+    width: 100%;
+    clear: both;
+    position: absolute;
+    top: 800%;
+    
+}
+
+#dol img
+{
+    padding-top: 10px;
+    width: 60px;
+}
+/* Przyciski*/
+.button1, .button2, .button3
+{
+    display: block;
+    background-color: transparent;
+    border:0.1% solid black;
+    color:black;
+    padding: 1% 2%;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    top: 87%;
+    transition: .5s;
+}
+
+.button1:hover, .button2:hover, .button3:hover
+{
+    background: black;
+    color: white;
+}
+
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nawigacja
+{
+    display: flex;
+    height: 100vh;
+    position: absolute;
+    top: 8%;
+}
+.plenerowa, .slubna, .samochodowa
+{
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    color: white;
+    font-size: 45px;
+    text-transform: uppercase;
+    background-size:cover;
+    background-position: center;
+    margin: 8px;
+    
+}
+
+.plenerowa
+{
+    
+    background-image: url('plenerowa.jpg');
+}
+.slubna
+{
+    background-image: url('slubna.jpg');
+}
+.samochodowa
+{
+    background-image: url('samochod1.jpg');
+}
+body
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.button1
+{
+    left: 15%;
+}
+
+.button2
+{
+    left: 48%;
+}
+.button3
+{
+    left: 80%;
+}
+
+
+h2
+{
+    font-size: 180%;
+    top:120%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Smooch', cursive;
+
+}
+p
+{
+    
+}
+
+.slub1{position: relative; top: 10% ; left: 6%; width:30%;}
+.slub2{position: relative; top: 50%; left: 58%;width:35%; z-index: 1;}
+.slub3{position: relative; top: 10%; left: 45%;width: 50%;}
+.slub5{position: relative; top: 64%; left: 14%;width:40%;}
+.slub
+{
+    position: relative;
+    height: 50%;
+}
+.plener
+{
+    position: absolute;
+    top: 140%;
+}
+.samochod
+{
+    position: absolute;
+    top:600%;
+
+}
+.zdjecia
+{
+    position: relative;
+    height: 400%;
+    top:120%;
+}
+
+.osoba1{position:relative; top: ;left: ;}
+.osoba2{position:relative; top: 10%;left: ;}
+.osoba3{position:relative; top: ;left: -1.5%;}
+.osoba4{position:relative; top: ;left: ;}
+.osoba5{position:relative; top: ;left: ;}
+.osoba6{position:relative; top: ;left: ;}
+
+.samochod2{position: relative;top: ;left: ;}
+.samochod3{position: relative;top: 500%;left: ;}
+.samochod4{position: relative;top: 500%;left: ;}
+.samochod5{position: relative;top: 500%;left: ;}
+.samochod6{position: relative;top: 500%;left: ;}
+.samochod7{position: relative;top: 500%;left: ;}
+
+
+
+.segregacja
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: absolute;
+    top: 300%;
+
+}
+
+
+/*Orazki*/
+
+.gora1
+{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    font-size: 30px;
+}
+.test
+{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.test img
+{
+    display: block;
+}
+
+#mapa{
+    position: absolute;
+    top: 100px;
+   left: 300px;
+}
+
+
+@keyframes linia
+{
+    from {
+        background-color: blue;
+        height: 1px;
+        border: none;
+        margin-left: 0%;
+        width: 0px;
+    }
+    
+        to 
+        {
+            background-color: blue;
+            height: 1px;
+            border: none;
+            margin-left: 0%;
+            width: 55px;
+        }
+}
